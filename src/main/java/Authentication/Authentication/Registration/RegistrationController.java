@@ -36,7 +36,7 @@ public class RegistrationController {
     }
 
 
-    @GetMapping(path = "employees/all") //Read all
+    @GetMapping(path = "employee/all") //Read all
     public List<?> Employees()
     {
         return registrationService.getEmployees();
